@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jvrgaray/desafioRipley-rest#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-redis-cache": "^1.1.3",
     "request": "^2.88.0"
   }
 }
