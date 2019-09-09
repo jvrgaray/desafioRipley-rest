@@ -25,12 +25,8 @@ app.get("/productos", function(req, res) {
       }
     }
   );
-  //res.send('[GET]Saludos desde express');
 });
 
-app.post("/hola", function(req, res) {
-  res.send("[POST]Saludos desde express");
-});
 
 app.listen(3000, () => {
   console.log("El servidor está inicializado en el puerto 3000");
